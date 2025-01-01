@@ -15,3 +15,6 @@ models/*.pkl
 
 # Ignore output results
 results/
+
+# Ignore API key
+kaggle (1).json
