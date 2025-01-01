@@ -8,6 +8,6 @@ api.authenticate()
 dataset = "dhivyeshrk/diseases-and-symptoms-dataset"  # Dataset ID from Kaggle
 
 # Step 3: Download and unzip the dataset
-api.dataset_download_files(dataset, path="./data", unzip=True)
+api.dataset_download_files(dataset, path="./data/raw", unzip=True)
 
-print("Dataset downloaded and extracted to './data'")
+print("Dataset downloaded and extracted to './data/raw'")
