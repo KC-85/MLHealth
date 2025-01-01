@@ -1,0 +1,17 @@
+# Ignore pip installation script
+get-pip.py
+
+# Ignore virtual environment files
+venv/
+*.pyc
+__pycache__/
+
+# Ignore dataset files
+data/raw/
+data/processed/
+
+# Ignore model files
+models/*.pkl
+
+# Ignore output results
+results/
